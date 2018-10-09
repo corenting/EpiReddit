@@ -1,0 +1,42 @@
+{
+  "name": "epitajsprojectback",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "babel-node ./bin/www",
+    "dev": "eslint **/*.js --ignore-pattern node_modules/ --ignore-pattern migrations/ --ignore-pattern models/ && nodemon --exec \"babel-node\" ./bin/www"
+  },
+  "dependencies": {
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^5.2.0",
+    "hers-image-resolver": "^1.0.2",
+    "http-errors": "~1.6.2",
+    "jsonwebtoken": "^8.2.1",
+    "morgan": "~1.9.0",
+    "pbkdf2": "^3.0.16",
+    "sequelize": "^4.37.8",
+    "sequelize-cli": "^4.0.0",
+    "sqlite3": "^4.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "nodemon": "^1.17.4"
+  },
+  "eslintConfig": {
+    "extends": "airbnb-base",
+    "env": {
+      "es6": true,
+      "browser": true
+    },
+    "rules": {
+      "linebreak-style": 0,
+      "no-nested-ternary": 0
+    }
+  }
+}

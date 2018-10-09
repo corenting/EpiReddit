@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+}
+
+.Vote-Buttons{
+  float: left;
+}
+
+.button-login {
+  margin-left: auto;
+  margin-right: 0%;
+}
+
+.vote-buttons-comment {
+  margin-left: 5px;
+}
+
+.ui.comments {
+  max-width: none !important;
+}
+
+.thread-coponent {
+  margin-bottom: 10px;
+}
+
+.profile-score {
+  font-size: 200%;
+}
+
+.page-buttons {
+  margin-bottom: 15px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.thread-card-component {
+  margin: 10px;
+}
+
+.thread-card-title {
+  margin-left: 25px;
+}
+
+.thread-card-description {
+  margin-top: 10px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.ui#content{
+  padding-top: 70px;
+}
+
+.comment-button {
+  color: white;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
